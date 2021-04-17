@@ -5,7 +5,7 @@ public class ArrayWriter implements Runnable {
 	
 	public ArrayWriter(int value, SimpleArray array) {
 		startValue = value;
-		sharedSimpleArray= array;
+		sharedSimpleArray= array; 
 	}
 
 	@Override

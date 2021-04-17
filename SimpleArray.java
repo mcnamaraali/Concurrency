@@ -27,7 +27,7 @@ public class SimpleArray {
 	}
 
 	@Override
-	public String toString() {
+	public synchronized String toString() {
 		return Arrays.toString(array);
 	}
 
